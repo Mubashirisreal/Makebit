@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { motion } from 'framer-motion';
 
@@ -20,7 +20,7 @@ const Navbar = () => {
         >
           <a href="#" className="flex items-center" aria-label="makebit.tech home">
             <img 
-              src="logo/makebit transparent.png" 
+              src="/src/logo/makebit transparent.png"
               alt="makebit.tech logo" 
               className="h-[60px] w-[250px]"
             />
@@ -48,10 +48,15 @@ const Navbar = () => {
               href={item === 'Home' ? '#' : `#${item.toLowerCase()}`}
               className="hover:text-gray-300 transition-colors font-lato text-lg"
               whileHover={{ scale: 1.1 }}
-              transition={{ type: 'spring', stiffness: 400, damping: 17 }}
+              transition={{ 
+                type: 'spring', 
+                stiffness: 400, 
+                damping: 17,
+                duration: 0.3, 
+                delay: index * 0.1 
+              }}
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.3, delay: index * 0.1 }}
             >
               {item}
             </motion.a>
