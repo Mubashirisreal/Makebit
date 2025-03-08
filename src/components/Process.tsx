@@ -24,7 +24,7 @@ const Process = () => {
     },
     {
       title: 'Launch & Grow',
-      description: 'We support your growth and help you scale.',
+      description: 'We support your growth and help you scale up.',
       icon: <TrendingUp className="text-[#FF0000]" size={56} />,
       number: '04'
     }

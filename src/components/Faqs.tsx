@@ -6,7 +6,7 @@ const Faqs = () => {
   const faqs = [
     {
       question: "What services do you offer?",
-      answer: "We specialize in web design, business automation, and performance marketing which will be coming soon."
+      answer: "We specialize in web development, business automation, and performance marketing which will be coming soon."
     },
     {
       question: "How long does a project take?",

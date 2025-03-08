@@ -63,7 +63,7 @@ const Hero = () => {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-             From sleek, responsive web design to seamless business automations, we got you covered.
+             From sleek, responsive web design to robust full-stack applications and seamless business automations, we’ve got you covered.
             </motion.p>
             <motion.div
               className="flex justify-center"

@@ -6,14 +6,14 @@ const Services = () => {
   const serviceCards = [
     {
       icon: <Monitor size={64} />,
-      title: 'Web Design',
-      description: 'Sleek, responsive, and conversion-focused websites.',
+      title: 'Web development',
+      description: 'Crafting seamless and scalable web applications tailored to meet your business needs.',
       badge: null
     },
     {
       icon: <Cog size={64} />,
       title: 'Business Automation',
-      description: 'Streamline workflows and boost efficiency.',
+      description: 'Making automations that Streamline workflows which boosts efficiency.',
       badge: null
     },
     {

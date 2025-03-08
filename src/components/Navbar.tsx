@@ -20,7 +20,7 @@ const Navbar = () => {
         >
           <a href="#" className="flex items-center" aria-label="makebit.tech home">
             <img 
-              src="/src/logo/makebit transparent.png"
+              src="/Logo/makebit transparent.png"
               alt="makebit.tech logo" 
               className="h-[60px] w-[250px]"
             />
